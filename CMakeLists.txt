@@ -10,6 +10,10 @@ add_executable(Editor main.cpp
     Data/Primitive.hpp
     Data/Curcle.hpp
     Data/Rectangle.hpp
+    View/ViewJob.hpp
+    View/Painter.hpp
+    View/ViewPrinters.hpp
+    View/Canvas.hpp
 )
 
 install(TARGETS Editor

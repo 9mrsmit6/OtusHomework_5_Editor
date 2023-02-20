@@ -5,6 +5,7 @@
 
 namespace Data
 {
+    //!Просто класс точки
     struct Point
     {
         unsigned int X{0};

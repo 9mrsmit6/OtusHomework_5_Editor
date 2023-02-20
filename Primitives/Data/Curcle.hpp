@@ -6,7 +6,7 @@
 
 namespace Data
 {
-
+    //!Класс для окружности (хранит базовую точку и радиус)
     class Curcle
     {
     public:

@@ -7,12 +7,18 @@
 
 namespace Data
 {
+    /*!
+     * Абстракция записи о примитиве
+     * предоставляет интерфейс для запуска его отрисовки (или генерации информации в удобном формате для отрисовки)
+     * предоставляет интерфейс для генерации информации в экспортируемый файл
+     */
     struct PrimitiveEntery
     {
             virtual void  paint()=0;
             virtual Files::DataEnteryFileInfo  getExportInfo()=0;
     };
 
+    //!Реализация для прямоугольника
     struct RectangleEntery: public PrimitiveEntery
     {
         RectangleEntery(Point a, Point b):
@@ -37,7 +43,7 @@ namespace Data
         std::shared_ptr<Data::Rectangle> obj;
     };
 
-
+    //!Реализация для окружности
     struct CurcleEntery: public PrimitiveEntery
     {
 
@@ -49,11 +55,13 @@ namespace Data
 
         void  paint() override
         {
+            //!Делегируем рисовальщику
             View::Painter::DrawPrimitive(obj);
         }
 
         Files::DataEnteryFileInfo  getExportInfo()override
         {
+            //!Делегируем экспортеру
             return Files::Exporter::getFileInfo(obj);
         }
 

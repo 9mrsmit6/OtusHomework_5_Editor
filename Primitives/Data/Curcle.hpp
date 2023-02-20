@@ -2,18 +2,17 @@
 #ifndef CIRCLE_H
 #define CIRCLE_H
 
-#include "Primitive.hpp"
-
+#include "Point.hpp"
 
 namespace Data
 {
 
-    class Curcle : public Primitive
+    class Curcle
     {
     public:
 
         Curcle(Point basePoint_, unsigned int radius_):
-            Primitive(basePoint_, PrimitiveType::Circule),
+            basePoint(basePoint_),
             radius(radius_)
         {
         }
@@ -22,7 +21,13 @@ namespace Data
           {
               return radius;
           }
+
+          Point getBasePoint()
+          {
+              return basePoint;
+          }
     private:
+        const Point basePoint;
         const unsigned int radius;
 
     };

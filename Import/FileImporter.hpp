@@ -8,6 +8,7 @@ namespace Files
 {
     namespace Importer
     {
+        //!Здесь должен быть реализован парсинг файла и генерация обьектов БД
         void fileImporter(Data::DataBase& db, std::string fileName)
         {
             /*

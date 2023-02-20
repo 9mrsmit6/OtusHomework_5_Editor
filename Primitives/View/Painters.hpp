@@ -8,7 +8,7 @@ namespace View
 {
     namespace Painter
     {
-
+        //!Реализует возможность отрисовки примитива
         template <class T>
         void DrawPrimitive(std::shared_ptr<T> obj);
 

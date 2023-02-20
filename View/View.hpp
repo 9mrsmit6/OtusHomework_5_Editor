@@ -5,6 +5,7 @@
 
 namespace View
 {
+    //!Панель для отрисовки примтивов (слушает БД и проводит необходимые манипуляции)
     struct Panel:public Data::DataBaseListener
     {
         Panel(Data::DataBase& db_):

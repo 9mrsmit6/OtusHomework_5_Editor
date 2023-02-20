@@ -8,6 +8,7 @@ namespace Files
 {
     namespace Exporter
     {
+        //!Здесь должен быть реализован рендеринг файла из БД
         void fileExporter(Data::DataBase& db, std::string fileName)
         {
             /*

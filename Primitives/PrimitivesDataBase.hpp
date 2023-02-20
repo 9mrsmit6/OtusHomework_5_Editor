@@ -10,14 +10,14 @@ namespace Data
 {
 
     using PrimitiveEnteryPtr = std::shared_ptr<Data::PrimitiveEntery>;
-
+    //!Интерфейс слушателя БД
     struct DataBaseListener
     {
         virtual void elementAdded   (std::size_t id)=0;
         virtual void elementErased  (std::size_t id)=0;
 
     };
-
+    //!абстрактная база данных(модель данных в удобном для отображения формате)
     struct DataBase
     {
         virtual void createCurcle(Data::Point p, unsigned int r)=0;
@@ -42,6 +42,8 @@ namespace Data
 
     };
 
+
+    //!Реализация базы данных
     struct PrimitivesDataBase:public DataBase
     {
 

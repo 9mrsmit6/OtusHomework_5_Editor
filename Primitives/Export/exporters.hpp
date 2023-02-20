@@ -6,6 +6,7 @@
 
 namespace Files
 {
+    //!Здесь должно быть описание представления примтива для экспорта
     struct DataEnteryFileInfo
     {
 
@@ -13,7 +14,7 @@ namespace Files
 
     namespace Exporter
     {
-
+        //!Здесь должно быть преобразование примитива в формат экспорта
         template <class T>
         DataEnteryFileInfo getFileInfo(std::shared_ptr<T>  obj);
 

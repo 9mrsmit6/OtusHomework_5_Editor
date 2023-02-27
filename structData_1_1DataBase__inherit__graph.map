@@ -1,0 +1,4 @@
+<map id="Data::DataBase" name="Data::DataBase">
+<area shape="rect" id="node1" title="абстрактная база данных(модель данных в удобном для отображения формате)" alt="" coords="19,5,162,156"/>
+<area shape="rect" id="node2" href="$structData_1_1PrimitivesDataBase.html" title="Реализация базы данных" alt="" coords="5,204,176,340"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="View::Panel" name="View::Panel">
+<area shape="rect" id="node1" title="Панель для отрисовки примтивов (слушает БД и проводит необходимые манипуляции)" alt="" coords="21,145,148,252"/>
+<area shape="rect" id="node2" href="$structData_1_1DataBaseListener.html" title="Интерфейс слушателя БД" alt="" coords="5,5,164,97"/>
+</map>

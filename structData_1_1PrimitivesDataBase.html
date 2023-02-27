@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Editor: Структура Data::PrimitivesDataBase</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Editor<span id="projectnumber">&#160;0.1</span>
+   </div>
+   <div id="projectbrief">Otus Homework 5 -&gt; Editor</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceData.html">Data</a></li><li class="navelem"><a class="el" href="structData_1_1PrimitivesDataBase.html">PrimitivesDataBase</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Открытые типы</a> &#124;
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="structData_1_1PrimitivesDataBase-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Структура Data::PrimitivesDataBase</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Реализация базы данных  
+ <a href="structData_1_1PrimitivesDataBase.html#details">Подробнее...</a></p>
+
+<p><code>#include &quot;<a class="el" href="PrimitivesDataBase_8hpp_source.html">PrimitivesDataBase.hpp</a>&quot;</code></p>
+<div class="dynheader">
+Граф наследования:Data::PrimitivesDataBase:</div>
+<div class="dyncontent">
+<div class="center"><img src="structData_1_1PrimitivesDataBase__inherit__graph.png" border="0" usemap="#aData_1_1PrimitivesDataBase_inherit__map" alt="Inheritance graph"/></div>
+<map name="aData_1_1PrimitivesDataBase_inherit__map" id="aData_1_1PrimitivesDataBase_inherit__map">
+<area shape="rect" title="Реализация базы данных" alt="" coords="5,204,176,340"/>
+<area shape="rect" href="structData_1_1DataBase.html" title="абстрактная база данных(модель данных в удобном для отображения формате)" alt="" coords="19,5,162,156"/>
+</map>
+</div>
+<div class="dynheader">
+Граф связей класса Data::PrimitivesDataBase:</div>
+<div class="dyncontent">
+<div class="center"><img src="structData_1_1PrimitivesDataBase__coll__graph.png" border="0" usemap="#aData_1_1PrimitivesDataBase_coll__map" alt="Collaboration graph"/></div>
+<map name="aData_1_1PrimitivesDataBase_coll__map" id="aData_1_1PrimitivesDataBase_coll__map">
+<area shape="rect" title="Реализация базы данных" alt="" coords="27,360,198,496"/>
+<area shape="rect" href="structData_1_1DataBase.html" title="абстрактная база данных(модель данных в удобном для отображения формате)" alt="" coords="41,160,184,311"/>
+<area shape="rect" title=" " alt="" coords="5,5,220,97"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Открытые типы</h2></td></tr>
+<tr class="memitem:a922b6e058dd0181197939d1c2887732b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1PrimitivesDataBase.html#a922b6e058dd0181197939d1c2887732b">PrimitiveEnteryArray</a> = std::vector&lt; <a class="el" href="namespaceData.html#abad2346fdd00ac01b91eebd272bb86b0">PrimitiveEnteryPtr</a> &gt;</td></tr>
+<tr class="separator:a922b6e058dd0181197939d1c2887732b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:ae474c22433e8a14423ca945bbc968393"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1PrimitivesDataBase.html#ae474c22433e8a14423ca945bbc968393">createCurcle</a> (<a class="el" href="structData_1_1Point.html">Data::Point</a> p, unsigned int r) override</td></tr>
+<tr class="separator:ae474c22433e8a14423ca945bbc968393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bb73b8a3dfc863df747f2260ebb196f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1PrimitivesDataBase.html#a9bb73b8a3dfc863df747f2260ebb196f">createRectangle</a> (<a class="el" href="structData_1_1Point.html">Data::Point</a> f, <a class="el" href="structData_1_1Point.html">Data::Point</a> s) override</td></tr>
+<tr class="separator:a9bb73b8a3dfc863df747f2260ebb196f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83345776e02fd317bd81ff4b7434708f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1PrimitivesDataBase.html#a83345776e02fd317bd81ff4b7434708f">deletePrimitive</a> (std::size_t id) override</td></tr>
+<tr class="separator:a83345776e02fd317bd81ff4b7434708f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda3a209ac61aeb1baa8edb6086b7270"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1PrimitivesDataBase.html#acda3a209ac61aeb1baa8edb6086b7270">deleteAllPrimitive</a> () override</td></tr>
+<tr class="separator:acda3a209ac61aeb1baa8edb6086b7270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8981d15dc9dc5ae74e98b05742e990db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceData.html#abad2346fdd00ac01b91eebd272bb86b0">PrimitiveEnteryPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1PrimitivesDataBase.html#a8981d15dc9dc5ae74e98b05742e990db">getPrimitive</a> (std::size_t id) override</td></tr>
+<tr class="separator:a8981d15dc9dc5ae74e98b05742e990db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_structData_1_1DataBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structData_1_1DataBase')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="structData_1_1DataBase.html">Data::DataBase</a></td></tr>
+<tr class="memitem:ab1a2396c616b37fac5b705b320340c2f inherit pub_methods_structData_1_1DataBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1DataBase.html#ab1a2396c616b37fac5b705b320340c2f">createCurcle</a> (<a class="el" href="structData_1_1Point.html">Data::Point</a> p, unsigned int r)=0</td></tr>
+<tr class="separator:ab1a2396c616b37fac5b705b320340c2f inherit pub_methods_structData_1_1DataBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92ff937e0967f096bc5c420bf153a4cf inherit pub_methods_structData_1_1DataBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1DataBase.html#a92ff937e0967f096bc5c420bf153a4cf">createRectangle</a> (<a class="el" href="structData_1_1Point.html">Data::Point</a> f, <a class="el" href="structData_1_1Point.html">Data::Point</a> s)=0</td></tr>
+<tr class="separator:a92ff937e0967f096bc5c420bf153a4cf inherit pub_methods_structData_1_1DataBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecfa698588b7bd89b2c77b5d2148d17c inherit pub_methods_structData_1_1DataBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1DataBase.html#aecfa698588b7bd89b2c77b5d2148d17c">deletePrimitive</a> (std::size_t id)=0</td></tr>
+<tr class="separator:aecfa698588b7bd89b2c77b5d2148d17c inherit pub_methods_structData_1_1DataBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a1765553e53810a322a2e9545ccba22 inherit pub_methods_structData_1_1DataBase"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceData.html#abad2346fdd00ac01b91eebd272bb86b0">PrimitiveEnteryPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1DataBase.html#a1a1765553e53810a322a2e9545ccba22">getPrimitive</a> (std::size_t id)=0</td></tr>
+<tr class="separator:a1a1765553e53810a322a2e9545ccba22 inherit pub_methods_structData_1_1DataBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01b15eae73a9413634351ce5a1ac36a7 inherit pub_methods_structData_1_1DataBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1DataBase.html#a01b15eae73a9413634351ce5a1ac36a7">deleteAllPrimitive</a> ()=0</td></tr>
+<tr class="separator:a01b15eae73a9413634351ce5a1ac36a7 inherit pub_methods_structData_1_1DataBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac066c150c8c6a86d93042f43f568dc79 inherit pub_methods_structData_1_1DataBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1DataBase.html#ac066c150c8c6a86d93042f43f568dc79">registerListener</a> (std::shared_ptr&lt; <a class="el" href="structData_1_1DataBaseListener.html">DataBaseListener</a> &gt; newListener)</td></tr>
+<tr class="separator:ac066c150c8c6a86d93042f43f568dc79 inherit pub_methods_structData_1_1DataBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Дополнительные унаследованные члены</h2></td></tr>
+<tr class="inherit_header pro_attribs_structData_1_1DataBase"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_structData_1_1DataBase')"><img src="closed.png" alt="-"/>&#160;Защищенные данные унаследованные от <a class="el" href="structData_1_1DataBase.html">Data::DataBase</a></td></tr>
+<tr class="memitem:aa77a22794510aba0a457a1ef3302163b inherit pro_attribs_structData_1_1DataBase"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="structData_1_1DataBaseListener.html">DataBaseListener</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1DataBase.html#aa77a22794510aba0a457a1ef3302163b">listeners</a></td></tr>
+<tr class="separator:aa77a22794510aba0a457a1ef3302163b inherit pro_attribs_structData_1_1DataBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Реализация базы данных </p>
+</div><h2 class="groupheader">Определения типов</h2>
+<a id="a922b6e058dd0181197939d1c2887732b" name="a922b6e058dd0181197939d1c2887732b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a922b6e058dd0181197939d1c2887732b">&#9670;&#160;</a></span>PrimitiveEnteryArray</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structData_1_1PrimitivesDataBase.html#a922b6e058dd0181197939d1c2887732b">Data::PrimitivesDataBase::PrimitiveEnteryArray</a> =  std::vector&lt;<a class="el" href="namespaceData.html#abad2346fdd00ac01b91eebd272bb86b0">PrimitiveEnteryPtr</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="ae474c22433e8a14423ca945bbc968393" name="ae474c22433e8a14423ca945bbc968393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae474c22433e8a14423ca945bbc968393">&#9670;&#160;</a></span>createCurcle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Data::PrimitivesDataBase::createCurcle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structData_1_1Point.html">Data::Point</a>&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещает <a class="el" href="structData_1_1DataBase.html#ab1a2396c616b37fac5b705b320340c2f">Data::DataBase</a>.</p>
+
+</div>
+</div>
+<a id="a9bb73b8a3dfc863df747f2260ebb196f" name="a9bb73b8a3dfc863df747f2260ebb196f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bb73b8a3dfc863df747f2260ebb196f">&#9670;&#160;</a></span>createRectangle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Data::PrimitivesDataBase::createRectangle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structData_1_1Point.html">Data::Point</a>&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structData_1_1Point.html">Data::Point</a>&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещает <a class="el" href="structData_1_1DataBase.html#a92ff937e0967f096bc5c420bf153a4cf">Data::DataBase</a>.</p>
+
+</div>
+</div>
+<a id="acda3a209ac61aeb1baa8edb6086b7270" name="acda3a209ac61aeb1baa8edb6086b7270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acda3a209ac61aeb1baa8edb6086b7270">&#9670;&#160;</a></span>deleteAllPrimitive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Data::PrimitivesDataBase::deleteAllPrimitive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещает <a class="el" href="structData_1_1DataBase.html#a01b15eae73a9413634351ce5a1ac36a7">Data::DataBase</a>.</p>
+
+</div>
+</div>
+<a id="a83345776e02fd317bd81ff4b7434708f" name="a83345776e02fd317bd81ff4b7434708f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83345776e02fd317bd81ff4b7434708f">&#9670;&#160;</a></span>deletePrimitive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Data::PrimitivesDataBase::deletePrimitive </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещает <a class="el" href="structData_1_1DataBase.html#aecfa698588b7bd89b2c77b5d2148d17c">Data::DataBase</a>.</p>
+
+</div>
+</div>
+<a id="a8981d15dc9dc5ae74e98b05742e990db" name="a8981d15dc9dc5ae74e98b05742e990db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8981d15dc9dc5ae74e98b05742e990db">&#9670;&#160;</a></span>getPrimitive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceData.html#abad2346fdd00ac01b91eebd272bb86b0">PrimitiveEnteryPtr</a> Data::PrimitivesDataBase::getPrimitive </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещает <a class="el" href="structData_1_1DataBase.html#a1a1765553e53810a322a2e9545ccba22">Data::DataBase</a>.</p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов структуры находятся в файле:<ul>
+<li>Primitives/<a class="el" href="PrimitivesDataBase_8hpp_source.html">PrimitivesDataBase.hpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

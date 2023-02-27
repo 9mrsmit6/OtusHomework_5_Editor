@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Editor: Структура View::Panel</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Editor<span id="projectnumber">&#160;0.1</span>
+   </div>
+   <div id="projectbrief">Otus Homework 5 -&gt; Editor</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceView.html">View</a></li><li class="navelem"><a class="el" href="structView_1_1Panel.html">Panel</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="structView_1_1Panel-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Структура View::Panel</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Панель для отрисовки примтивов (слушает БД и проводит необходимые манипуляции)  
+ <a href="structView_1_1Panel.html#details">Подробнее...</a></p>
+
+<p><code>#include &quot;<a class="el" href="View_8hpp_source.html">View.hpp</a>&quot;</code></p>
+<div class="dynheader">
+Граф наследования:View::Panel:</div>
+<div class="dyncontent">
+<div class="center"><img src="structView_1_1Panel__inherit__graph.png" border="0" usemap="#aView_1_1Panel_inherit__map" alt="Inheritance graph"/></div>
+<map name="aView_1_1Panel_inherit__map" id="aView_1_1Panel_inherit__map">
+<area shape="rect" title="Панель для отрисовки примтивов (слушает БД и проводит необходимые манипуляции)" alt="" coords="21,145,148,252"/>
+<area shape="rect" href="structData_1_1DataBaseListener.html" title="Интерфейс слушателя БД" alt="" coords="5,5,164,97"/>
+</map>
+</div>
+<div class="dynheader">
+Граф связей класса View::Panel:</div>
+<div class="dyncontent">
+<div class="center"><img src="structView_1_1Panel__coll__graph.png" border="0" usemap="#aView_1_1Panel_coll__map" alt="Collaboration graph"/></div>
+<map name="aView_1_1Panel_coll__map" id="aView_1_1Panel_coll__map">
+<area shape="rect" title="Панель для отрисовки примтивов (слушает БД и проводит необходимые манипуляции)" alt="" coords="21,145,148,252"/>
+<area shape="rect" href="structData_1_1DataBaseListener.html" title="Интерфейс слушателя БД" alt="" coords="5,5,164,97"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:aecfb54601605569ed1744ee5c72d9458"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structView_1_1Panel.html#aecfb54601605569ed1744ee5c72d9458">Panel</a> (<a class="el" href="structData_1_1DataBase.html">Data::DataBase</a> &amp;db_)</td></tr>
+<tr class="separator:aecfb54601605569ed1744ee5c72d9458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfc0261cde99c97595d68025be3bcfec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structView_1_1Panel.html#abfc0261cde99c97595d68025be3bcfec">elementAdded</a> (std::size_t id) override</td></tr>
+<tr class="separator:abfc0261cde99c97595d68025be3bcfec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a998094ba3bb511e07d633829b64ec2f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structView_1_1Panel.html#a998094ba3bb511e07d633829b64ec2f7">elementErased</a> (std::size_t id) override</td></tr>
+<tr class="separator:a998094ba3bb511e07d633829b64ec2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a419ff63d7f73d80163e06b8f5b3cbe5d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1DataBaseListener.html#a419ff63d7f73d80163e06b8f5b3cbe5d">elementAdded</a> (std::size_t id)=0</td></tr>
+<tr class="separator:a419ff63d7f73d80163e06b8f5b3cbe5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa729768490171724200647845d1033a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structData_1_1DataBaseListener.html#aa729768490171724200647845d1033a0">elementErased</a> (std::size_t id)=0</td></tr>
+<tr class="separator:aa729768490171724200647845d1033a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Панель для отрисовки примтивов (слушает БД и проводит необходимые манипуляции) </p>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a id="aecfb54601605569ed1744ee5c72d9458" name="aecfb54601605569ed1744ee5c72d9458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecfb54601605569ed1744ee5c72d9458">&#9670;&#160;</a></span>Panel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">View::Panel::Panel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structData_1_1DataBase.html">Data::DataBase</a> &amp;&#160;</td>
+          <td class="paramname"><em>db_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="abfc0261cde99c97595d68025be3bcfec" name="abfc0261cde99c97595d68025be3bcfec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfc0261cde99c97595d68025be3bcfec">&#9670;&#160;</a></span>elementAdded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void View::Panel::elementAdded </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещает <a class="el" href="structData_1_1DataBaseListener.html#a419ff63d7f73d80163e06b8f5b3cbe5d">Data::DataBaseListener</a>.</p>
+
+</div>
+</div>
+<a id="a998094ba3bb511e07d633829b64ec2f7" name="a998094ba3bb511e07d633829b64ec2f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a998094ba3bb511e07d633829b64ec2f7">&#9670;&#160;</a></span>elementErased()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void View::Panel::elementErased </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещает <a class="el" href="structData_1_1DataBaseListener.html#aa729768490171724200647845d1033a0">Data::DataBaseListener</a>.</p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов структуры находятся в файле:<ul>
+<li>View/<a class="el" href="View_8hpp_source.html">View.hpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

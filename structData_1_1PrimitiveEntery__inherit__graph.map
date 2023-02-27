@@ -1,0 +1,5 @@
+<map id="Data::PrimitiveEntery" name="Data::PrimitiveEntery">
+<area shape="rect" id="node1" title=" " alt="" coords="79,5,222,97"/>
+<area shape="rect" id="node2" href="$structData_1_1CurcleEntery.html" title="Реализация для окружности" alt="" coords="5,145,133,267"/>
+<area shape="rect" id="node3" href="$structData_1_1RectangleEntery.html" title="Реализация для прямоугольника" alt="" coords="157,145,307,267"/>
+</map>
